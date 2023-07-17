@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Rubik:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>PlusPHARMACY</title>
+  </head>
+  <style>
+    *{
+   padding: 0; 
+   margin: 0;
+   box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Inter",sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+    
+
+}
+
+.section-hero{
+    background-color:azure ;
+    padding: 0rem 0;
+}
+
+
+.hero{
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6;
+    align-items: center;
+   
+  }
+  
+  .heading-primary{
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.05;
+    color:#333;
+    letter-spacing: -0.5px;
+    margin-bottom: 3.2rem;
+    margin-top: 25px;
+
+}
+
+.hero-description{
+    font-size: 2rem ;
+    line-height: 1.5 ;
+    margin-bottom: 4.8rem;
+}
+
+.btn:link,.btn:visited{
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1.6rem 3.2rem;
+    border-radius: 9px;
+    transition: all 0.5s;
+    
+}
+
+.btn--full:link,
+.btn--full:visited{
+    background-color: #df1616;
+    color: #fff;
+    
+}
+.btn--full:hover,
+.btn--full:active{
+    background-color:#ff0404;
+    
+
+}
+.btn--ontline:link,
+.btn--ontline:visited{
+    background-color: #fff;
+    color:#555;
+}
+.btn--outline:hover,
+.btn--outline:active{
+    background-color:#f7a5a5;
+    
+}
+
+
+
+.hero .hero-image-box
+{
+    margin-top: 85px;
+} 
+
+
+
+.hero-img{
+    width:110%;
+     margin-top: 0px; 
+}
+.margin-right-sm{
+    margin-right: 1.6rem !important;
+}
+
+.logo{
+    height: 26rem;
+    margin-top: -70px ;
+    margin-left: 20px;
+}
+/* ********************* */
+/* NAVIGATION */
+/* ********************* */
+
+.main-nav-list{
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+    
+}
+.navigation{
+    padding-top: 5rem;
+    padding-right: 7rem;
+    
+}
+
+
+.header{
+    max-height: 0.1px;
+}
+
+
+.delivered-medicine{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 16rem;
+}
+.delivered-images{
+    display: flex;
+}
+
+.delivered-images img{
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    margin-top: 4rem;   
+    border: 3px solid #fff;
+    
+}
+.delivered-text{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 1.3rem;
+    
+}
+
+.delivered-text span{
+    color: #df1616 ;
+    font-weight: 900;
+}
+
+
+  </style> 
+  <body>
+    <div class="background-image">
+      <header class="header">
+        <img class="logo" alt="Plus Pharmacy" src="images/logo1.png" />
+      </header>
+      <div class="container-2">
+        
+
+      <main>
+        <section class="section-hero">
+          <div class="hero">
+            <div class="hero-text-box">
+              <h1 class="heading-primary">
+                A trusted madicine delivery to your door, every single day
+              </h1>
+
+              <p class="hero-description">
+                the art, practice, or profession of preparing, preserving,
+                compounding, and dispensing medical drugs.
+              </p>
+              <a href="#" class="btn btn--full margin-right-sm"
+                >Take care well</a
+              >
+              <a href="#" class="btn btn--outline">Learn more &darr;</a>
+              <div class="delvered-medicine">
+                <div class="delivered-images">
+                  <img
+                    src="images/customers/customer-1.jpg"
+                    alt="customerphoto"
+                  />
+                  <img
+                    src="images/customers/customer-2.jpg"
+                    alt="customerphoto"
+                  />
+                  <img
+                    src="images/customers/customer-3.jpg"
+                    alt="customerphoto"
+                  />
+                  <img
+                    src="images/customers/customer-4.jpg"
+                    alt="customerphoto"
+                  />
+                  <img
+                    src="images/customers/customer-5.jpg"
+                    alt="customerphoto"
+                  />
+                  <img
+                    src="images/customers/customer-6.jpg"
+                    alt="customerphoto"
+                  />
+                </div>
+                <div class="delivered-text">
+                  <p><span>10,000+</span> medicines delivered last year!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-image-box">
+              <img
+                src="images/mergpic.png"
+                class="hero-img"
+                alt="tablits laying on table"
+              />
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
