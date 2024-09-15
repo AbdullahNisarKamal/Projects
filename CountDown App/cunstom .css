@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Roboto'  , sans-serif;
+    font-weight: 900;
+}
+
+.main{
+   
+    width: 100%;
+    height: 100vh;
+    background: url('../Image/pexels-arts-1202841.jpg') ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0,  0 , 0, 0.5)
+}
+.title {
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 2.5rem ;
+    text-align: center;
+}
+.col{
+    display: flex;
+   margin: 20px;
+    justify-content: center;
+    width: 1000px;
+    color: white;
+   
+}
+
+.col div{
+    width: 250px;
+    text-align: center;
+}
+input{
+    height: 60px;
+    background-color: rgba(255,  255 , 255, 0.7);
+    border-color: transparent;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+   font-size:30px ;
+}
